@@ -1,0 +1,55 @@
+*{
+  margin: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+section{
+  width: 100vw;
+  height: 100vh;
+}
+
+.container1{
+  background-image: url("img/roma.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  margin: 8px;
+}
+
+.container2{
+  background-image: url("img/copenaghen.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  margin: 8px;
+}
+
+.container3{
+  background-image: url("img/tokyo.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  margin: 8px;
+}
+
+.luogo{
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px black;
+}
+
+.trasparenza{
+  background-color: rgba(255, 51, 0, 0.1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
